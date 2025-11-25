@@ -12,7 +12,7 @@ import mongodb from "../assets/icons/skills-icon/mongodb.png";
 import react from "../assets/icons/skills-icon/react-js.svg";
 import tailwind from "../assets/icons/skills-icon/tailwindcss.svg";
 // import php from "../assets/icons/skills-icon/php.svg";
-// import ml from "../assets/icons/skills-icon/ml.png"
+// import ml from "../assets/icons/skills-icon/ml.png";
 
 // projectImagess
 import respireX from "../assets/images/projectImages/spotify.jpg"
@@ -24,17 +24,53 @@ import snapIt from "../assets/images/projectImages/snpaIt.png"
 
 
 export const Projects = {
-    "SpotifyClone": {
-      image: respireX,
-      title: "Spotify Clone",
-      subTitle: "Music Streaming Web App",
+  "StudyNotion": {
+      image: studyNotion,
+      title: "StudyNotion",
+      subTitle: "Learning Platform",
       insights: {
-        desc: `A full-stack music app with playlist, login and streaming functionality.`,
-        category: "Entertainment",
+        desc: `E-learning platform for courses, enrollment, and dashboards.`,
+        category: "Education",
         techStack: [react, tailwind, nodejs, express, mongodb],
         reportLink: ""
       },
-      githubLink: "https://github.com/sahilpate-221s/Spotify-Clone.git"
+      githubLink: "https://github.com/sahilpate-221s/StudyNotion_project"
+    },
+    "SnapIt": {
+      image: snapIt,
+      title: "Snap It",
+      subTitle: "Image Sharing App",
+      insights: {
+        desc: `Social app for sharing pictures, comments, and profile feeds.`,
+        category: "Social Media",
+        techStack: [react, tailwind, firebase],
+        reportLink: ""
+      },
+      githubLink: "https://github.com/sahilpate-221s/SnapIt"
+    },
+    "WireframeToCode": {
+      image: null,
+      title: "Wireframe to Code",
+      subTitle: "AI Tool for wireframe to frontend code",
+      insights: {
+        desc: `Developed an AI tool that converts hand-drawn wireframe sketches into clean, production-ready frontend code. Integrated Firebase authentication, user credits, and fast image processing with Cloudinary. Designed a scalable backend using Drizzle ORM and NeonDB (PostgreSQL) for reliable data management.`,
+        category: "AI Tool",
+        techStack: [nextjs, tailwind, firebase, "TypeScript", "PostgreSQL"],
+        reportLink: ""
+      },
+      githubLink: "https://github.com/sahilpate-221s/wireframe2code"
+    },
+     "NotesApp": {
+      image: notesApp,
+      title: "NotesApp",
+      subTitle: "Note-Taking App",
+      insights: {
+        desc: `Create, edit, and organize notes with markdown support.`,
+        category: "Productivity",
+        techStack: [react, tailwind, firebase],
+        reportLink: ""
+      },
+      githubLink: "https://github.com/sahilpate-221s/Notes-app-cipherSchool"
     },
     "Zenhack": {
       image: zenhack,
@@ -48,18 +84,6 @@ export const Projects = {
       },
       githubLink: "https://github.com/sahilpate-221s/Zenhack.git"
     },
-    "NotesApp": {
-      image: notesApp,
-      title: "NotesApp",
-      subTitle: "Note-Taking App",
-      insights: {
-        desc: `Create, edit, and organize notes with markdown support.`,
-        category: "Productivity",
-        techStack: [react, tailwind, firebase],
-        reportLink: ""
-      },
-      githubLink: "https://github.com/sahilpate-221s/NotesApp.git"
-    },
     "NQueenVisualizer": {
       image: nQueen,
       title: "N Queen Visualizer",
@@ -72,29 +96,18 @@ export const Projects = {
       },
       githubLink: "https://github.com/sahilpate-221s/N-Queen-Visualizer.git"
     },
-    "StudyNotion": {
-      image: studyNotion,
-      title: "StudyNotion",
-      subTitle: "Learning Platform",
+    "SpotifyClone": {
+      image: respireX,
+      title: "Spotify Clone",
+      subTitle: "Music Streaming Web App",
       insights: {
-        desc: `E-learning platform for courses, enrollment, and dashboards.`,
-        category: "Education",
+        desc: `A full-stack music app with playlist, login and streaming functionality.`,
+        category: "Entertainment",
         techStack: [react, tailwind, nodejs, express, mongodb],
         reportLink: ""
       },
-      githubLink: "https://github.com/sahilpate-221s/StudyNotion.git"
-    },
-    "SnapIt": {
-      image: snapIt,
-      title: "Snap It",
-      subTitle: "Image Sharing App",
-      insights: {
-        desc: `Social app for sharing pictures, comments, and profile feeds.`,
-        category: "Social Media",
-        techStack: [react, tailwind, firebase],
-        reportLink: ""
-      },
-      githubLink: "https://github.com/sahilpate-221s/Snap-It.git"
+      githubLink: "https://github.com/sahilpate-221s/Spotify-Clone.git"
     }
+    
+    
   };
-  
